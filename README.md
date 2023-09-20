@@ -1,9 +1,12 @@
-# React + Vite
+# Assignment Question And Answeres:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+###Add at least 3 Project features 
+- Course Selection: Users can select courses, view total credit hours, and receive alerts for credit hour limits.
+- Real-time Price Calculation: The app calculates the total price as users select courses, providing cost transparency.
+- Dynamic Content: Courses are dynamically loaded from a JSON file, making it easy to update course information.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
+###Discuss how you managed the state in your assignment project.
+- In my assignment project, state management is handled using React's useState and useEffect hooks. 
+- I maintain state for course data, selected courses, total credit hours, remaining hours, and price. Users interact with the app, updating these states as needed. 
+- The useEffect hook fetches initial course data. Real-time feedback on course selection, total credit hours, and remaining hours is provided. 
+- This approach ensures a dynamic and responsive user experience, with immediate updates as users select courses, view prices, and monitor their progress in the course registration process.

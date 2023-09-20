@@ -23,8 +23,3 @@ const Cart = ({ selectedCourses,totalCreditHour,remainingHour , price}) => {
 };
 
 export default Cart;
-
- {/* <p>Credit Hour Remaining 0 hr</p>
-            <h3>Course Name</h3>
-            <p>Total Credit Hour : 0 </p>
-            <p>Total Price : 48000 USD</p> */}
