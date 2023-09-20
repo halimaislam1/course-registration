@@ -5,9 +5,6 @@ import { FaBookmark } from 'react-icons/fa';
 import Cart from "../Cart/Cart";
 import {toast} from 'react-toastify';
 
-
-
-
 const Course = () => {
     const [allCourses, setAllCourses] = useState([]);
     const [selectedCourses, setSelectedCourses] = useState([]);
@@ -43,8 +40,7 @@ const Course = () => {
                 setTotalCreditHour(count);
                 setRemainigHour(CreditHourRemainig);
                 setSelectedCourses([...selectedCourses,course]);
-            }
-           
+            }           
         } 
         setPrice(course.price) 
     }
@@ -55,14 +51,15 @@ const Course = () => {
             <div>
                 <h1 className='text-4xl font-bold text-center'>Course Registration</h1>
             </div>
-            <div className="grid grid-cols-3 ">
+            <div className=" grid grid-cols-3">
+                <div className="w-3/4 ">
                 {
                     allCourses.map((course) => (
                         <div className="card w-96 bg-base-100 shadow-xl mt-10 ">
                             <figure >
                                 <img src={course.img} alt="" /></figure>
                             <div className="card-body">
-                                <h2 className="card-title">{course.course_name}</h2>
+                                <h2 className="card-title text-[#1C1B1B]">{course.course_name}</h2>
                                 <p>{course.course_details}</p>
                                 <div className="flex ">
                                     <p>$ price: {course.price}</p>
@@ -74,16 +71,16 @@ const Course = () => {
                                 <div className="card-actions  justify-center">
                                     <button
                                     onClick={() => hansdleSelectButton(course)}
-                                     className="btn btn-primary w-[280px]">
+                                     className="btn text-white bg-[#2F80ED]  w-[280px]">
                                         Select
                                     </button>
                                 </div>
                             </div>
-
                         </div>
                     ))
                 }
-                <div className="mt-10">
+                </div>
+                <div className="mt-10 w-9/12">
                    <Cart selectedCourses={selectedCourses} totalCreditHour={totalCreditHour} remainingHour={remainingHour} price={price}></Cart> 
                 </div>
             </div>
