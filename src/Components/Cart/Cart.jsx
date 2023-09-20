@@ -9,8 +9,7 @@ const Cart = ({ selectedCourses,totalCreditHour,remainingHour , price}) => {
             <h3 className="text-black font-bold pt-2 pb-2 ">Course Name</h3>
             {
             // eslint-disable-next-line react/prop-types
-            selectedCourses.map( (Course) => (
-                    // eslint-disable-next-line react/jsx-key
+            selectedCourses.map( (Course) => (  
                     <li key={Course.id}>{Course.course_name}</li>
                
             ))}

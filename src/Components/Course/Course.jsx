@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-key */
 import { useState } from "react";
 import { useEffect } from "react";
-import { FaBookmark } from 'react-icons/fa';
+import { BsBook } from 'react-icons/bs';
 import Cart from "../Cart/Cart";
 import {toast} from 'react-toastify';
 
@@ -51,11 +51,11 @@ const Course = () => {
             <div>
                 <h1 className='text-4xl font-bold text-center'>Course Registration</h1>
             </div>
-            <div className=" grid grid-cols-3">
-                <div className="w-3/4 ">
+            <div className=" flex flex-col-reverse lg:flex-row ">
+                <div className="w-full lg:3/4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-5">
                 {
                     allCourses.map((course) => (
-                        <div className="card w-96 bg-base-100 shadow-xl mt-10 ">
+                        <div className="card  bg-base-100 shadow-xl mt-10 ">
                             <figure >
                                 <img src={course.img} alt="" /></figure>
                             <div className="card-body">
@@ -64,7 +64,7 @@ const Course = () => {
                                 <div className="flex ">
                                     <p>$ price: {course.price}</p>
                                     <div className="flex gap-3">
-                                        <p ><FaBookmark></FaBookmark></p>
+                                        <p ><BsBook></BsBook></p>
                                         <p>Credit:{course.credit_hour}</p>
                                     </div>
                                 </div>
@@ -80,7 +80,7 @@ const Course = () => {
                     ))
                 }
                 </div>
-                <div className="mt-10 w-9/12">
+                <div className="mt-10 w-full lg:w-1/4">
                    <Cart selectedCourses={selectedCourses} totalCreditHour={totalCreditHour} remainingHour={remainingHour} price={price}></Cart> 
                 </div>
             </div>
