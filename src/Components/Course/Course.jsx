@@ -44,7 +44,6 @@ const Course = () => {
         } 
         setPrice(course.price) 
     }
-    // console.log(selectedCourses);
 
     return (
         <>
@@ -65,7 +64,7 @@ const Course = () => {
                                     <p>$ price: {course.price}</p>
                                     <div className="flex gap-3">
                                         <p ><BsBook></BsBook></p>
-                                        <p>Credit:{course.credit_hour}</p>
+                                        <p>Credit:{course.credit_hour} hr</p>
                                     </div>
                                 </div>
                                 <div className="card-actions  justify-center">

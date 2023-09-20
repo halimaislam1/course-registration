@@ -1,4 +1,3 @@
-
 // eslint-disable-next-line react/prop-types
 const Cart = ({ selectedCourses,totalCreditHour,remainingHour , price}) => {
     // console.log(selectedCourses);

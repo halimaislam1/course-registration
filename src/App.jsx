@@ -5,7 +5,6 @@ import { ToastContainer } from 'react-toastify';
 import Course from './Components/Course/Course'
 
 function App() {
- 
   return (
     <>
       <Course></Course>
