@@ -1,8 +1,7 @@
 import './App.css'
 // import Cart from './Components/Card/Cart'
-// import {toast} from 'react-toastify';
-// import 'react-toastify/dist/ReactToastify.css';
-// toast.configure()
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from 'react-toastify';
 import Course from './Components/Course/Course'
 
 function App() {
@@ -10,7 +9,7 @@ function App() {
   return (
     <>
       <Course></Course>
-
+      <ToastContainer></ToastContainer>
     </>
   )
 }

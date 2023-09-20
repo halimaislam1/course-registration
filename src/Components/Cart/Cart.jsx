@@ -1,10 +1,10 @@
 
 // eslint-disable-next-line react/prop-types
-const Cart = ({ selectedCourses }) => {
-    console.log(selectedCourses);
+const Cart = ({ selectedCourses,totalCreditHour,remainingHour , price}) => {
+    // console.log(selectedCourses);
     return (
         <div className=" p-5 ml-6 mb-8 bg-gray-100 shadow-xl">
-          
+             <p>Credit Hour Remaining: {remainingHour} hr</p>
             <h3>Course Name</h3>
             {
             // eslint-disable-next-line react/prop-types
@@ -14,6 +14,8 @@ const Cart = ({ selectedCourses }) => {
                
             ))}
             
+            <p>Total Credit Hour :{totalCreditHour} hr</p>
+            <p> Price: ${price}</p>
             
         </div>
     );

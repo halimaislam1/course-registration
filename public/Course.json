@@ -5,7 +5,7 @@
       "course_details": " C programming is a foundational course covering the fundamentals of the C programming language for software development.",
       "img": "https://i.ibb.co/znsnX2f/Rectangle-2-2.png",
       "price": "15000",
-      "credit_hour": "1hr"
+      "credit_hour": 1
     },
     {
       "id": "2",
@@ -13,7 +13,7 @@
       "course_details": " Introduction to Algorithms (CLRS) is a renowned textbook providing an in-depth exploration of computer algorithms and their applications.",
       "img": "https://i.ibb.co/bHG5wRM/Rectangle-2-3.png",
       "price": "25000",
-      "credit_hour": "2hr"
+      "credit_hour":2
     },
     {
       "id": "3",
@@ -21,7 +21,7 @@
       "course_details": " C++ for DSA is a course or book teaching C++ programming within the context of data structures and algorithms",
       "img": "https://i.ibb.co/rFz1z9n/Rectangle-2-4.png",
       "price": "10000",
-      "credit_hour": "10hr"
+      "credit_hour": 10
     },
     {
       "id": "4",
@@ -29,7 +29,7 @@
       "course_details": "Basic data structures are fundamental organizational techniques in computer science, including arrays, linked lists, stacks, and queues, for managing data efficiently.",
       "img": "https://i.ibb.co/xs9RWCq/Rectangle-3.png",
       "price": "35000",
-      "credit_hour": "5hr"
+      "credit_hour": 5
     },
     {
       "id": "5",
@@ -37,7 +37,7 @@
       "course_details": "Introduction to OOP Python covers object-oriented programming principles and their application in Python programming.",
       "img": "https://i.ibb.co/LZtPGN2/Rectangle-2.png",
       "price": "19000",
-      "credit_hour": "5hr"
+      "credit_hour": 5
     },
     {
       "id": "6",
@@ -45,7 +45,7 @@
       "course_details": "Software engineering involves systematically designing, developing, and maintaining software applications to meet specific user needs.",
       "img": "https://i.ibb.co/8NXqQvr/Rectangle-2-5.png",
       "price": "23000",
-      "credit_hour": "2hr"
+      "credit_hour": 2
     },
     {
       "id": "7",
@@ -53,7 +53,7 @@
       "course_details": "AWS (Amazon Web Services) is a leading provider of cloud computing services, offering a wide range of on-demand computing resources.",
       "img": "https://i.ibb.co/hy1Cswc/Rectangle-3-1.png",
       "price": "35000",
-      "credit_hour": "5hr"
+      "credit_hour": 5
     },
     {
       "id": "8",
@@ -61,7 +61,7 @@
       "course_details": "MySQL is an open-source relational database management system known for its speed, reliability, and ease of use.",
       "img": "https://i.ibb.co/vhDKS0x/Rectangle-2-1.png",
       "price": "19000",
-      "credit_hour": "5hr"
+      "credit_hour": 5
     },
     {
       "id": "9",
@@ -69,7 +69,7 @@
       "course_details": "Problem-solving involves analyzing, designing, and implementing solutions to address challenges or achieve specific objectives effectively.",
       "img": "https://i.ibb.co/8z9JyQh/Rectangle-2-6.png",
       "price": "23000",
-      "credit_hour": "2hr"
+      "credit_hour": 2
     }
   ]
   
